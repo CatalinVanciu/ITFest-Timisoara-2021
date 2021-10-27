@@ -195,6 +195,31 @@ theme = responsiveFontSizes(theme);
               <img src="https://itfest.osut.ro/media/Parteneri/fitt2021.png" style={{height:"80px",margin:"auto",display:"block"}} alt="fitt" />
               </a>
           </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://atos.net/ro/romania" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/aatos2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="atos" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://amber.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/aamber2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="amber" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://wellcode.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/wellcode2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="wellcode" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://libertateinit.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/libertateit2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="libertate in it" />
+              </a>
+          </Grid>
+          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://www.facebook.com/pulsaresportsRO" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/pulsar2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="libertate in it" />
+              </a>
+          </Grid>
           {/* <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
               <a href="https://www.unlocktm.ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/unlock-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="unlock games" />
@@ -318,11 +343,8 @@ theme = responsiveFontSizes(theme);
               <img src="https://itfest.osut.ro/media/Parteneri/anosr2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="anosr" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
-              <a href="https://fitt.ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/fitt2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="anosr" />
-              </a>
-          </Grid>
+         
+        
         </Grid>
 
           </Container>
