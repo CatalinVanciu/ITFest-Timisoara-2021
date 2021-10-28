@@ -187,7 +187,7 @@ const Evenimente = () => {
                     formular="https://form.123formbuilder.com/6022877/form"
                     />
                 <Eveniment
-                    titlu="Impactul tehnologiei in societate si economie"
+                    titlu="Impactul tehnologiei în societate și economie"
                     descriere="Cristian Cira este lector în cadrul Universității de Vest din Timișoara și predă Computer Architecture. A fost unul dintre autorii lucrării  ,,Identificarea oportunităților de memorie non-volatilă adresabilă de octeți în aplicații științifice la scară extremă” și, totodată, a dezvoltat o pasiune pentru domeniul ,,blockchain”."
                     data="Miercuri, 10 Noiembrie"
                     poza={cira}
@@ -208,7 +208,7 @@ const Evenimente = () => {
                     />
                 <Eveniment
                     titlu="Your Mind in the Network. A Journey beyound Imagination"
-                    descriere="Savnet este un centru de training care și-a luat angajamentul să ofere cursanților și partenerilor lor cea mai bună experiență educațională. Creează soluții prin care ințelegerea tehnologiilor IT&C a devenit plăcută și ușor de înțeles, iar prin comunicare, atenție la detalii și analizarea rezultatelor, a căutat constant să fie cel mai bun."
+                    descriere="Savnet este un centru de training care și-a luat angajamentul să ofere cursanților și partenerilor lor cea mai bună experiență educațională. Creează soluții prin care înțelegerea tehnologiilor IT&C a devenit plăcută și ușor de înțeles, iar prin comunicare, atenție la detalii și analizarea rezultatelor, a căutat constant să fie cel mai bun."
                     data="Vineri, 12 Noiembrie"
                     poza={savu}
                     ora="19:30"
