@@ -185,51 +185,96 @@ theme = responsiveFontSizes(theme);
         justify="center"
         alignItems="flex-start"
         alignContent="center">
-          <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://www.uvt.ro/ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/Black_uvt.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
+              <img src="https://itfest.osut.ro/media/Parteneri/uvt2021.png" style={{height:"80px",margin:"auto",display:"block"}} alt="uvt" />
               </a>
           </Grid>
-          <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://fitt.ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/fitt2021.png" style={{height:"80px",margin:"auto",display:"block"}} alt="fitt" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px"}}>
+              <a href="https://developers.google.com/community/gdsc" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/gdsc.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://atos.net/ro/romania" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/aatos2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="atos" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://www.continental.com/ro-ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/conti2021.png" style={{height:"80px",margin:"auto",display:"block"}} alt="unlock games" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/opportunities-for-students-in-romania/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/nokiapart2021_8nov.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://amber.ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/aamber2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="amber" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://wellcode.ro/" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/wellcode2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="wellcode" />
               </a>
           </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
-              <a href="https://libertateinit.ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/libertateit2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="libertate in it" />
-              </a>
-          </Grid>
-          <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
               <a href="https://www.facebook.com/pulsaresportsRO" target="_blank">
               <img src="https://itfest.osut.ro/media/Parteneri/pulsar2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="libertate in it" />
               </a>
           </Grid>
-          {/* <Grid item xs={6} md={3} style={{marginBottom: "40px"}}>
-              <a href="https://www.unlocktm.ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/unlock-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="unlock games" />
+          <Grid item xs={6} md={4} style={{marginBottom: "40px"}}>
+              <a href="https://libertateinit.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/libertateit2021.png" style={{height:"80px", margin:"auto",display:"block"}} alt="libertate in it" />
               </a>
           </Grid>
-          <Grid item xs={6} md={3} style={{marginBottom: "40px",marginTop:"35px"}}>
-              <a href="https://www.books-express.ro/" target="_blank">
-              <img src="https://itfest.osut.ro/media/Parteneri/books-express-logo.png" style={{height:"40px",margin:"auto",display:"block"}} alt="books express" />
+          <Grid item xs={6} md={4} style={{marginBottom: "40px",marginTop:"35px"}}>
+              <a href="https://atos.net/ro/romania" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/misuionica.png" style={{height:"80px",margin:"auto",display:"block"}} alt="atos" />
               </a>
-          </Grid> */}
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px",marginTop:"35px"}}>
+              <a href="" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/lvr.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "40px",marginTop:"35px"}}>
+              <a href="https://www.cognizantsoftvision.com/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/csoftvision2021png.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px",marginTop:"35px"}}>
+              <a href="https://www.msg-systems.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/msg.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px",marginTop:"35px"}}>
+              <a href="https://savnet.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/savnet.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px",marginTop:"35px"}}>
+              <a href="https://savnet.ro/" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/tfp.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px",marginTop:"35px"}}>
+              <a href="" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/sigla.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
+          <Grid item xs={6} md={4} style={{marginBottom: "80px",marginTop:"35px"}}>
+              <a href="" target="_blank">
+              <img src="https://itfest.osut.ro/media/Parteneri/tridia.png" style={{height:"80px",margin:"auto",display:"block"}} alt="books express" />
+              </a>
+          </Grid>
         </Grid>
 
 
@@ -329,9 +374,9 @@ theme = responsiveFontSizes(theme);
         alignItems="flex-start"
         alignContent="center">
           <Grid item xs={12} md={4} className="parteneri" style={{marginBottom: "40px"}}>
-              {/* <a href="https://ligaac.ro/" target="_blank">
-                <img src="https://itfest.osut.ro/media/Parteneri/liga-logo.png" style={{height:"80px",margin:"auto",display:"block"}} alt="liga ac" />
-              </a> */}
+              <a href="https://topminds.ro/" target="_blank">
+                <img src="https://itfest.osut.ro/media/Parteneri/topminds2021.png" style={{height:"80px",margin:"auto",display:"block"}} alt="liga ac" />
+              </a>
           </Grid>
           <Grid item xs={12} md={4} style={{marginBottom: "40px"}}>
               <a href="https://consiliulelevilor.ro/" target="_blank">

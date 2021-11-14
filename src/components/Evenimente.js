@@ -17,6 +17,9 @@ const amber = "https://itfest.osut.ro/media/events/amber2021.png";
 const spataru = "https://itfest.osut.ro/media/events/spataru2021.png";
 const savu = "https://itfest.osut.ro/media/events/savu2021.png";
 const continental = "https://itfest.osut.ro/media/events/conti2021.png";
+const msgSystems = "https://itfest.osut.ro/media/events/msg2021.png";
+const nokia = "https://itfest.osut.ro/media/events/nokiaconf2021_8nov.png";
+const gdsc = "https://itfest.osut.ro/media/events/gdsc2021.png";
 
 // Concursuri
 const hackathon = "https://itfest.osut.ro/media/events/hackathon.png";
@@ -27,6 +30,16 @@ const minecraft = "https://itfest.osut.ro/media/events/minecraft.jpg";
 const lol = "https://itfest.osut.ro/media/events/LOL.jpg";
 const board_games = "https://itfest.osut.ro/media/events/boardsgames_small.png";
 const csgo = "https://itfest.osut.ro/media/events/CSGO_small.png";
+
+// Comic Con
+
+const anitaRus = "https://itfest.osut.ro/media/events/anitaRus2021.png";
+const dreamBuilder = "https://itfest.osut.ro/media/events/dreambuilder2021.png";
+const misuIonica = "https://itfest.osut.ro/media/events/misuIonica2021.png";
+const tridia = "https://itfest.osut.ro/media/events/tridia2021.png";
+const cosplay = "https://itfest.osut.ro/media/events/cosplay2021.png";
+const animeQuizz = "https://itfest.osut.ro/media/events/animequiz.png";
+const comicQuest = "https://itfest.osut.ro/media/events/comicquest2021.png";
 
 // Castigatori
 const lol_1 = "Izi Pizi Lemon Squeezee";
@@ -106,7 +119,7 @@ const Evenimente = () => {
                     data="Luni, 1 Noiembrie"
                     poza={wellcode}
                     ora="18:00"
-                    deadline="Duminica, 31 Octombie"
+                    deadline="Luni, 1 Noiembrie, ora 12:00 "
                     invitat="Raul Trîmbițaș"
                     formular="https://form.123formbuilder.com/6020314/form"
                     />
@@ -150,7 +163,7 @@ const Evenimente = () => {
                     "
                     data="Vineri, 5 Noiembrie"
                     poza={libertate_init}
-                    ora="18:00"
+                    ora="16:00"
                     deadline="Joi, 4 Noiembrie"
                     invitat="Cristian Dascălu"
                     formular="https://form.123formbuilder.com/6020325/form"
@@ -161,10 +174,20 @@ const Evenimente = () => {
                     "
                     data="Luni, 8 Noiembrie"
                     poza={continental}
-                    //ora="18:00"
+                    ora="18:00"
                     deadline="Duminică, 7 Noiembrie"
                     invitat="cei de la Continental"
                     formular="https://form.123formbuilder.com/6022894/form"
+                    />
+                <Eveniment
+                    titlu="Getting started with the freshly baked .Net 6 minimal API"
+                    descriere="Cea mai nouă versiune de .NET va deveni disponibilă la nivel global în câteva săptămâni, oferind o versiune complet renovată a suportului API-ului web, numită API minimală. Dacă sunteți familiarizat cu express.js, cu siguranță veți vedea o mulțime de lucruri familiare acolo. Dar merită cu adevărat noul API minim din .NET 6? Alăturați-vă cu mine în această versiune hands on, deoarece vom începe cu un nou proiect API web, încercând să profităm de noul API minim. Făcând acest lucru, probabil că vom înțelege din start care sunt avantajele și dezavantajele API-ului minim și, de asemenea, vom încerca să abordăm un nou model arhitectural pentru dezvoltarea API-urilor web pe .NET."
+                    data="Luni, 8 Noiembrie"
+                    poza={gdsc}
+                    ora="19:30"
+                    deadline="Duminică, 7 Noiembrie"
+                    invitat="Dan Pătrașcu"
+                    formular="https://form.123formbuilder.com/6028256/form"
                     />
                 <Eveniment
                     titlu="How to catch the bad guys using Azure Sentinel"
@@ -191,14 +214,36 @@ const Evenimente = () => {
                     descriere="Cristian Cira este lector în cadrul Universității de Vest din Timișoara și predă Computer Architecture. A fost unul dintre autorii lucrării  ,,Identificarea oportunităților de memorie non-volatilă adresabilă de octeți în aplicații științifice la scară extremă” și, totodată, a dezvoltat o pasiune pentru domeniul ,,blockchain”."
                     data="Miercuri, 10 Noiembrie"
                     poza={cira}
-                    ora="18:00"
+                    ora="19:30"
                     deadline="Marți, 9 Noiembrie"
                     invitat="Cristian Cira"
                     formular="https://form.123formbuilder.com/6022869/form"
                     />
                 <Eveniment
+                    titlu="From Zero to a Full-Stack Hero (at least Robin if not Batman)"
+                    descriere="Echipa msg România este formată din oameni cu pasiune pentru tehnologie care, prin activitatea lor, sprijină implementarea de soluții avansate pentru inovare digitală, dezvoltarea de experți tehnici de generații, a căror eforturi sunt coordonate spre accelerarea transformării digitale ale unor companii angajate în crearea unui viitor mai bun.
+                    Sunt pionieri digitali într-o lume definită prin informații."
+                    data="Joi, 11 Noiembrie"
+                    poza={msgSystems}
+                    ora="18:00"
+                    deadline="Miercuri, 10 Noiembrie"
+                    invitat="cei de la Msg Systems"
+                    formular="https://form.123formbuilder.com/6027183/form"
+                    />
+                <Eveniment
+                    titlu="The Future X Networks"
+                    descriere="Nokia România are unul dintre cele mai cuprinzătoare portofolii din industrie și o experiență pe măsură în Rețele Mobile, Rețele Fixe, Servicii Globale, Software Nokia, Rețele IP/Optice și Soluții de Vânzări. 
+                    Inovează viitorul tehnologiilor wireless prin contribuția lor la 5G. Creează următoarea generație de software pentru definirea rețelelor, funcții de rețea virtualizate, analiză predictivă și gestionează peste 250.000 de elemente de rețea în întreaga lume."
+                    data="Joi, 11 Noiembrie"
+                    poza={nokia}
+                    ora="19:30"
+                    deadline="Miercuri, 10 Noiembrie"
+                    invitat="cei de la Nokia"
+                    formular="https://form.123formbuilder.com/6027306/form"
+                    />
+                <Eveniment
                     titlu="What about Twelve Factor Apps?"
-                    descriere="SoftVision este o companie de outsourcing în domeniul dezvoltării software din România. Creează produse și soluții digitale de impact end to end care conectează mărcile cu clienții, oferind inovație durabilă, agilitate și o conexiune care inspiră implicare și transformare în afaceri. Compania a lucrat cu unele dintre cele mai mari branduri de top din lume."
+                    descriere="Cognizant Softvision este lider in domeniul solutiilor software, dezvoltand solutii si produse digitale complete care conecteaza marile branduri ale lumii cu consumatorii finali. Cognizant Softvision colaboreaza cu unele dintre cele mai mari branduri din lume, oferind inovatie sustenabila, agilitate si conexiune care inspira angajament si transformarea business-ului. Cognizant Softvision are o echipa de peste 5.000 de profesionisti in domeniul dezvoltarii de produse software: product, design si engineering, intr-o retea de studiouri globale din noua tari de pe cinci continente."
                     data="Vineri, 12 Noiembrie"
                     poza={softVision}
                     ora="18:00"
@@ -207,7 +252,7 @@ const Evenimente = () => {
                     formular="https://form.123formbuilder.com/6022878/form"
                     />
                 <Eveniment
-                    titlu="Your Mind in the Network. A Journey beyound Imagination"
+                    titlu="Your Mind in the Network. A Journey beyond Imagination"
                     descriere="Savnet este un centru de training care și-a luat angajamentul să ofere cursanților și partenerilor lor cea mai bună experiență educațională. Creează soluții prin care înțelegerea tehnologiilor IT&C a devenit plăcută și ușor de înțeles, iar prin comunicare, atenție la detalii și analizarea rezultatelor, a căutat constant să fie cel mai bun."
                     data="Vineri, 12 Noiembrie"
                     poza={savu}
@@ -216,33 +261,6 @@ const Evenimente = () => {
                     invitat="Adrian Savu"
                     formular="https://form.123formbuilder.com/6022893/form"
                     />
-                {/* { <Eveniment
-                    titlu="Despre educație, vocație și modele în era digitală"
-                    descriere="Academia Te Fac Programator este o inițiativă pornită de către câțiva tineri entuziaști în urmă cu un an și jumătate, cu o misiune ambițioasă: să formeze noi profesioniști în domeniul IT din România, cât și să educe societatea pentru provocările epocii digitale. Începută în urmă cu doar un an și jumătate, pragul academiei a fost trecut până în prezent de aproximativ 300 de persoane, iar cei mai buni studenți și-au găsit de lucru în domeniu. Programul de formare al academiei are o durată de un an, și presupune formarea în programare de la zero. "
-                    data="Marți, 10 Noiembrie"
-                    poza={te_fac_programator}
-                    ora="19:00"
-                    deadline="Duminică, 8 Noiembrie"
-                    invitat="cei de la Te Fac Programator"
-                    formular="http://www.123formbuilder.com/form-5687598/form"/>
-                <Eveniment
-                    titlu="Introducere în Game Development"
-                    descriere="Amber este o agenție internațională bazată pe game development. Invitații - angajați în cadrul Amber - vor povesti despre industria de gaming și despre întregul proces de concepere a unui joc prin etape -  Production, Game Design și Arta. Urmează apoi o discuție amplă despre oportunitățile așteptate în domeniul ingineriei IT și zona de QA (Quality Assurance). Un alt aspect interesant pe care îl vor aborda se referă la cum te poți alătura industriei de gaming prin departamentul de Testare."
-                    data="Miercuri, 11 Noiembrie"
-                    poza={amber}
-                    ora="18:00"
-                    deadline="Luni, 9 Noiembrie"
-                    invitat="cei de la Amber"
-                    formular="http://www.123formbuilder.com/form-5687613/form"/>
-                <Eveniment
-                    titlu="Ethical Hacking"
-                    descriere="HackTheZone, unic în Europa, nu doar în România, este rezultatul muncii asidue a întregii echipe HTZ, iar scopul lui este unul imens: de a contribui la crearea unei comunități a celor pasionați de Ethical Hacking. Deci se adresează doar celor din industria IT ce pot face față cu succes simulării unui atac cibernetic, interesați să-și dovedească abilitățile de pen-testing, scripting, crypto și social engineering."
-                    data="Joi, 12 Noiembrie"
-                    poza={hackthezone}
-                    ora="18:00"
-                    deadline="Marți, 10 Noiembrie"
-                    invitat="cei de la HackTheZone"
-                    formular="http://www.123formbuilder.com/form-5678344/form"/> */}
             </Grid>
 
             <Grid
@@ -278,32 +296,32 @@ const Evenimente = () => {
                 <Eveniment
                     titlu="Hackathon"
                     descriere="Hackathonul organizat de noi este un concurs de programare cu o durată de 12 de ore pe o temă stabilită de echipa ITFest Timișoara. Participanții formează echipe și concurează, urmând a fi premiat cel mai inovativ produs și creatorii ei."
-                    // data="Sâmbătă, 14 Noiembrie"
-                    data = "Se va anunța în curând"
+                    data="Sâmbătă, 13 Noiembrie"
                     poza={hackathon}
-                    // deadline="Vineri, 13 Noiembrie"
-                    // ora="10:00"
-                    //formular="https://form.123formbuilder.com/6020310/form"
+                    deadline="Vineri, 12 Noiembrie"
+                    ora="9:00"
+                    formular="https://form.123formbuilder.com/6020310/form"
+                    regulament="https://drive.google.com/file/d/1FyRAegjWdzHIsjAHvk5t9hVXqVtCczqL/view"
                     />
                 <Eveniment
                     titlu="Concurs de algoritmică"
                     descriere="Acest concurs este o competiție desemnată studenților, dar și elevilor din liceu, ce își propune să testeze și să recompenseze agilitatea și inventivitatea de a aplica diferiți algoritmi în probleme de actualitate."
-                    // data="Vineri, 13 Noiembrie"
-                    data = "Se va anunța în curând"
+                    data="Duminică, 14 Noiembrie"
                     poza={algoritmica}
-                    // deadline="Joi, 12 Noiembrie"
-                    // ora="17:00"
-                    //formular="http://www.123formbuilder.com/form-5678360/form"
+                    deadline="Sâmbătă, 13 Noiembrie, ora 12:00"
+                    ora="9:00"
+                    formular="https://form.123formbuilder.com/6020308/form"
+                    regulament="https://drive.google.com/file/d/1VDqku6t-QEwx3CEuBQMyBbGMyn6Bcwv7/view"
                     />
                 <Eveniment
                     titlu="Capture the flag"
                     descriere="Acest concurs constă în exploatarea unui sistem informatic vulnerabil (program, website, rețea) în scopul obținerii unui „flag” (cod/fișier). Concursul va avea echipe de maxim 3 membri."
-                    // data="Duminică, 15 Noiembrie"
-                    data = "Se va anunța în curând"
+                    data="Duminică, 14 Noiembrie"
                     poza={ctf}
-                    // deadline="Sâmbătă, 14 Noiembrie"
-                    // ora="17:00"
-                    //formular="http://www.123formbuilder.com/form-5688080/form"
+                    deadline="Sâmbătă, 13 Noiembrie, ora 12:00"
+                    ora="17:00"
+                    formular="https://form.123formbuilder.com/6020303/form"
+                    regulament="https://drive.google.com/file/d/11BlHJAcx2RzLWo86yeGq-UPkar7RqMC1/view"
                     />
 
             </Grid>
@@ -341,9 +359,9 @@ const Evenimente = () => {
                      <Eveniment
                     titlu="Minecraft Building Contest"
                     descriere="În Minecraft, jucătorii explorează o lume 3D, generată procedural, cu teren infinit, pot descoperi și extrage materii prime, instrumente și obiecte de artizanat, pot construi structuri sau lucrări de terasament."
-                    data="Vineri, 5 Noiembrie"
+                    data="Vineri, 12 Noiembrie"
                     poza={minecraft}
-                    deadline="Miercuri, 3 Noiembrie"
+                    deadline="Joi, 11 Noiembrie"
                     regulament="https://drive.google.com/file/d/1uL36K9YOMX9b_SL2s2zKbEUISN3HomCq/view"
                     formular="https://form.123formbuilder.com/6020304/form"
                     // locul1={hs_1}
@@ -368,7 +386,7 @@ const Evenimente = () => {
                     descriere="Competiția de CS:GO din cadrul proiectului ITFest Timișoara se organizează în regim online prin intermediul platformei Faceit. Echipa va fi alcătuită din 5 membri, 2 rezerve (opţional) și un antrenor (opțional), dintre care unul va fi ales căpitan de echipă."
                     data="Sâmbătă, 6 Noiembrie"
                     poza={csgo}
-                    deadline="Vineri, 31 Octombrie"
+                    deadline="Marți, 2 Noiembrie"
                     regulament="https://drive.google.com/file/d/1OgIpp7lG5y9Ssd9SoR9hvVx21LpoPNmr/view"
                     formular="https://form.123formbuilder.com/6020306/form"
                     // locul1={cs_1}
@@ -380,7 +398,7 @@ const Evenimente = () => {
                     descriere="Competiția de League of Legends se va desfăşura prin intermediul platformei Faceit în regim online. Echipe de câte cinci jucători și două rezerve (opțional) ce vor concura pentru câteva premii fascinante oferite de echipa ITFest Timișoara!"
                     data="Duminică, 7 Noiembrie"
                     poza={lol}
-                    deadline="Joi, 31 Octombrie"
+                    deadline="Marți, 2 Noiembrie"
                     regulament="https://drive.google.com/file/d/1qQmYiOcxVbj2s6qBQLjOrKu2ayS7qHmF/view"
                     formular="https://form.123formbuilder.com/6020307/form"
                     // locul1={lol_1}
@@ -422,24 +440,80 @@ const Evenimente = () => {
                 alignItems="flex-start"
                 alignContent="center">
                     <Eveniment
-                    titlu="Comic Con"
-                    descriere="Comic Con este o convenție cu un accent pregnant pe cărțile de benzi desenate și cultura acestora, în care fanii se adună pentru a întâlni creatori și experți în domeniu. 
-
-                    Obiectivul Comic Con ITFest Timișoara este reprezentat de un concurs de cosplay pentru pasionații de cărți, seriale, filme, jocuri și alte creații ficționale."
-                    // data="Duminică, 15 Noiembrie"
-                    data = "Se va anunța în curând"
-                    poza={comicCon}
-                    // deadline="Marți, 10 Noiembrie"
-                    //formular="http://www.123formbuilder.com/form-5678380/form"
+                    titlu="Comic Book Graphic Design"
+                    descriere="Anita Rus este creatoarea poveștii Sci-Fi ,,Sfidator”, poveste în care sunt prezentate într-o perspectivă diferită două lumi interdimensionale, bazate pe superstiții.
+                    An, personajul principal al poveștii, este complex, cu trăiri și conflicte intense care ajunge să se cunoască și să își descopere umanitatea."
+                    data = "Vineri, 12 Noiembrie"
+                    ora = "19:00"
+                    poza={anitaRus}
+                    invitat = "Anita Rus"
+                    deadline="Joi, 11 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027329/form"
                     />
-                    {/* <Eveniment
-                    titlu="Board Games"
-                    descriere="O serie de jocuri de societate care îți oferă oportunitatea de a cunoaște oameni noi și de a te relaxa, distra în regim online. Printre jocurile incluse se enumeră: Among Us, Uno, Mafia Online și altele."
-                    // data="Sâmbătă, 7 Noiembrie"
-                    poza={board_games}
-                    // deadline="Joi, 5 Noiembrie"
-                    // formular="http://www.123formbuilder.com/form-5687186/itfest-2020-board-games"
-                    />  */}
+                    <Eveniment
+                    titlu="Pe urmele lui Han Solo - - Aventura dezvoltării unui simulator spațial"
+                    descriere="Dream Builder Studios este un dezvoltator independent de jocuri creat de veterani ai industriei locale. Studioul este specializat în simulatoare spațiale, dar deține o experiență largă în toate tipurile de jocuri, atât pe dispozitive mobile, cât șu pe PC-uri și console."
+                    data = "Vineri, 12 Noiembrie"
+                    ora = "20:30"
+                    poza={dreamBuilder}
+                    invitat="cei de la Dream Builder Studios"
+                    deadline="Joi, 11 Noiembrie"
+                    formular="https://form.123formbuilder.com/6029725/form"
+                    />
+                    <Eveniment
+                    titlu="Aventurile neștiute ale lui Misu si Ionica"
+                    descriere="Emy-Mirel Ivașcă, absolvent al Regiei de Film, este creatorul seriei animate M&I în cadrul platformei de YouTube.
+                    Activitatea sa se axează pe domeniul filmului, având o pasiune pentru scurtmetraje, și, totodată, este creatorul filmului ,,Sunt extraterestru”."
+                    data = "Sâmbătă, 13 Noiembrie"
+                    ora = "16:00"
+                    poza={misuIonica}
+                    invitat="Emy-Mirel Ivașcă"
+                    deadline="Vineri, 12 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027334/form"
+                    />
+                    <Eveniment
+                    titlu="Concurs cosplay"
+                    descriere="ITFest Timișoara îți oferă posibilitatea să dai frâu imaginației tale în cadrul unui concurs de cosplay. 
+                    Ideea de a te deghiza a devenit din ce în ce mai populară în lume. Astfel, cu cât te identifici mai bine cu personajul, cu atât este mai distractiv!"
+                    data = "Duminică, 14 Noiembrie"
+                    poza={cosplay}
+                    deadline="Sâmbătă, 13 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027337/form"
+                    regulament="https://drive.google.com/file/d/117P4-wz45SdcYH7fDHICdVQ6IPBOhr0W/view"
+                    />
+                    <Eveniment
+                    titlu="Introducere în grafica 3D"
+                    descriere="Alex Meseșan este instructor, consultant, generalist 3D, și, totodată, a devenit Autodesk Certified Partner.
+                    Este fondatorul Tridia, unde predă cursuri de grafică 3D prin intermediul programului Autodesk 3ds Max. Folosind propriul curriculum, învață cursanții cum să folosească software-ul de la zero și mai mult decât atât, îi învață să dobândească o afinitate pentru tot ceea ce presupune termenul de 3D."
+                    data = "Duminică, 14 Noiembrie"
+                    ora = "12:00"
+                    poza={tridia}
+                    invitat="Alex Meseșan"
+                    deadline="Sâmbătă, 13 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027338/form"
+                    />
+                    <Eveniment
+                    titlu="Anime Quizz"
+                    descriere="Crezi că ești expert în anime? Încercați testul nostru de anime și vedeți dacă puteți obține 100%. Joacă acest test anime trivia și provoacă-te prin întrebări variate despre ghicirea numelor anime-urilor prin imagini sau despre ghicirea personajelor. Doar fanii adevărați trec acest test uimitor.
+                    "
+                    data = "Duminică, 14 Noiembrie"
+                    ora="15:00"
+                    poza={animeQuizz}
+                    deadline="Sâmbătă, 13 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027343/form"
+                    regulament="https://drive.google.com/file/d/1mLRef-24_sXTRJWC-vv4Rw18qLgYouFA/view"
+                    />
+                     <Eveniment
+                    titlu="Comic Quest"
+                    descriere="Majoritatea personajelor fictive Marvel operează într-o singură realitate cunoscută sub numele de Universul Marvel, majoritatea locațiilor reflectând locuri din viața reală.
+                    DC Comics este un editor american de benzi desenate și unitatea emblematică a DC Entertainment, fiind una dintre cele mai mari și mai vechi companii americane de benzi desenate."
+                    data = "Duminică, 14 Noiembrie"
+                    ora = "18:00"
+                    poza={comicQuest}
+                    deadline="Sâmbătă, 13 Noiembrie"
+                    formular="https://form.123formbuilder.com/6027347/form"
+                    regulament="https://drive.google.com/file/d/1YAFNE3JkKXxPIRLrGarWzGUH0mRIbyJV/view"
+                    />
 
                 </Grid>
         </div>
